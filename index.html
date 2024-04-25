@@ -4,78 +4,83 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/draft-portfolio-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet">
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/draft-portfolio-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/draft-portfolio-project/assets/index-10c40100.css">
+    <link rel="modulepreload" crossorigin href="/draft-portfolio-project/assets/vendor-3783c3cd.js">
+    <link rel="stylesheet" href="/draft-portfolio-project/assets/vendor-b3ce9496.css">
+    <link rel="stylesheet" href="/draft-portfolio-project/assets/index-de770d3a.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/draft-portfolio-project/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
     <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
+    <section class="container footer-section">
+  <div class="footer-header-container">
+    <div class="work-together-frame">
       <img
-        class="pic"
-        src="/draft-portfolio-project/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
+        class="footer-header-photo"
+        src="../img/footer-img.png"
+        alt="avatar-photo"
+        width="44"
+        height="44"
       />
+      <div class="footer-header-frame">
+        <h2 class="footer-header">Let’s<span class="footer-header-accent"> work</span>
+		</h2>
+      </div>
     </div>
+    <div class="footer-header-frame">
+      <h2 class="footer-header">together</h2>
+    </div>
+  </div>
+  <div class="footer-submit-form">
+    <form class="user-form">
+      <div class="footer-form-frame">
+        <input
+          class="footer-submit-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="clients@gmail.com"
+		  pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+		  required
+		  maxlength="37"
+        />
+      </div>
+	  <p class="validation-text">Success!</p>
+      <div class="footer-form-frame">
+        <textarea
+          class="footer-submit-textarea"
+          name="comments"
+          id="comments"
+          placeholder="comments"
+		  required
+		  maxlength="200"
+        ></textarea>
+      </div>
+	  <button class="footer-submit-btn" type="submit">Send
+	</button>
+    </form>
+  </div>
+  <address class="footer-contacts-container">
+    <a class="footer-contacts" class="" href="mailto:lloydjefferson@gmail.com"
+      >lloydjefferson@gmail.com</a>
+    <a class="footer-contacts" href="tel:+3801111111111">+380 11 1111 11 11</a>
+  </address>
+  <div class="glass-effect">
+	<div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
   </div>
 </section>
 
